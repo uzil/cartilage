@@ -1,6 +1,6 @@
 {
   "name": "cartilage",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Express middleware for request validation based on joi",
   "main": "index.js",
   "scripts": {
