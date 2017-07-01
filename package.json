@@ -1,0 +1,26 @@
+{
+  "name": "cartilage",
+  "version": "1.0.0",
+  "description": "Express middleware for request validation based on joi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kumar Ujjwal <ujjwal25993@live.com>",
+  "license": "MIT",
+  "dependencies": {
+    "bluebird": "^3.5.0"
+  },
+  "peerDependencies": {
+    "joi": "10.x.x"
+  },
+  "keywords": [
+    "express",
+    "validator",
+    "validation",
+    "validate",
+    "sanitize",
+    "sanitization",
+    "joi"
+  ]
+}
