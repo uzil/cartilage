@@ -8,6 +8,10 @@
   },
   "author": "Kumar Ujjwal <ujjwal25993@live.com>",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uzil/cartilage.git"
+  },
   "dependencies": {
     "bluebird": "^3.5.0"
   },
