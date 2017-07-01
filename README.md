@@ -1,5 +1,8 @@
 ## Cartilage
 
+[![Build Status](https://travis-ci.org/uzil/cartilage.svg?branch=master)](https://travis-ci.org/uzil/cartilage)
+[![Coverage Status](https://coveralls.io/repos/github/uzil/cartilage/badge.svg?branch=master)](https://coveralls.io/github/uzil/cartilage?branch=master)
+
 `cartilage` is a Express Middleware for validation of incoming requests. It is a wrapper around [joi](https://github.com/hapijs/joi) validation library, and allows you to ensure all your inputs are valid, before passing it down to actual controller function.
 
 `cartilage` allows you to validate `req.headers`, `req.params`, `req.query` and `req.body` (given are using `body-parser`). But is not limited to those four only, it can validtate any object in `req` object of express (for example `req.token`).
