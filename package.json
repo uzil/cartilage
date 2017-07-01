@@ -25,6 +25,7 @@
     "validate",
     "sanitize",
     "sanitization",
-    "joi"
+    "joi",
+    "middleware"
   ]
 }
