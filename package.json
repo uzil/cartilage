@@ -17,7 +17,7 @@
     "bluebird": "^3.5.0"
   },
   "peerDependencies": {
-    "joi": "10.x.x"
+    "joi": ">=4.x.x"
   },
   "keywords": [
     "express",

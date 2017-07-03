@@ -19,10 +19,8 @@ describe('Cartilage Middleware', () => {
       .end((error, res) => {
         if (error) return done(error);
 
-        expect(res.body).to.have.property('isJoi');
         expect(res.body).to.have.property('name');
         expect(res.body).to.have.property('details');
-        expect(res.body.isJoi).to.be.equal(true);
         expect(res.body.name).to.be.equal('ValidationError');
 
         done();
@@ -41,10 +39,8 @@ describe('Cartilage Middleware', () => {
       .end((error, res) => {
         if (error) return done(error);
 
-        expect(res.body).to.have.property('isJoi');
         expect(res.body).to.have.property('name');
         expect(res.body).to.have.property('details');
-        expect(res.body.isJoi).to.be.equal(true);
         expect(res.body.name).to.be.equal('ValidationError');
 
         done();
@@ -64,10 +60,8 @@ describe('Cartilage Middleware', () => {
       .end((error, res) => {
         if (error) return done(error);
 
-        expect(res.body).to.have.property('isJoi');
         expect(res.body).to.have.property('name');
         expect(res.body).to.have.property('details');
-        expect(res.body.isJoi).to.be.equal(true);
         expect(res.body.name).to.be.equal('ValidationError');
 
         done();
@@ -88,10 +82,8 @@ describe('Cartilage Middleware', () => {
       .end((error, res) => {
         if (error) return done(error);
 
-        expect(res.body).to.have.property('isJoi');
         expect(res.body).to.have.property('name');
         expect(res.body).to.have.property('details');
-        expect(res.body.isJoi).to.be.equal(true);
         expect(res.body.name).to.be.equal('ValidationError');
 
         done();

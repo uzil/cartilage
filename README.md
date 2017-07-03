@@ -9,7 +9,7 @@
 
 `Why cartilage?` It not only validates, but it validate efficiently. Every validation is async and runs in parallel to each other. Also it applies all the changes made by `joi` back to the specified `express` incomming request object.
 
-`cartilage` uses npm `peerDependencies` to manage the version of `joi` it will use. This peer dependency is not automatically installed using `npm install` since npm@3, so you must install a version of `joi` compatible (10.x.x) along with `cartilage`, for it to work correctly.
+`cartilage` uses npm `peerDependencies` to manage the version of `joi` it will use. This peer dependency is not automatically installed using `npm install` since npm@3, so you must install a version of `joi` compatible (>=`4.x.x`) along with `cartilage`, for it to work correctly.
 
 ## Usage
 
